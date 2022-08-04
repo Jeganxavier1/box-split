@@ -1,0 +1,36 @@
+
+html, body{
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.box{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+}
+#cell1{
+    border-right:1px solid black;
+    border-bottom:1px solid black;
+}
+#cell2{
+    border-bottom: 1px solid black;
+}
+#cell3{
+    border-right: 1px solid black;
+}
+
+.smallCell1{
+    border-right:1px solid black;
+    border-bottom:1px solid black;
+}
+.smallCell2{
+    border-bottom: 1px solid black;
+}
+.smallCell3{
+    border-right: 1px solid black;
+}
